@@ -9,6 +9,13 @@ a{
   text-decoration: none;
   color: rgb(255,255,255);
 }
+@media (min-width: 576px){
+
+.container > col{
+  width: 100%;
+}
+}
+    
 .heading{
   display: flex;
   justify-content: center;
@@ -28,7 +35,9 @@ a{
 .step{
   user-select: none;
 }
-.step-content{}
+.step-content{
+  margin: 0px;
+}
 .step-ref{
   display: flex;
   justify-content: center;
