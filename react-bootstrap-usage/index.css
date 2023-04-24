@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-size: 28px;
+  font-size: 24px;
   background-color: rgb(30,30,30);
   color: rgb(209, 209, 209);
 }
@@ -9,12 +9,7 @@ a{
   text-decoration: none;
   color: rgb(255,255,255);
 }
-@media (min-width: 576px){
 
-.container > col{
-  width: 100%;
-}
-}
     
 .heading{
   display: flex;
@@ -34,12 +29,13 @@ a{
 }
 .step{
   user-select: none;
+  font-size: 22px;
 }
 .step-content{
   margin: 0px;
+  font-size: 16px;
 }
 .step-ref{
   display: flex;
   justify-content: center;
-  font-size:16px;
 }
