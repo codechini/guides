@@ -18,17 +18,23 @@
     
     
   </div>
-  <div class="footer">
-    <p class="step-ref">
-      <i> <a href="https://react-bootstrap.github.io/getting-started/introduction">React-bootstrap documentation --></a></i>
-    </p>
-  </div>
+  
+
   <div class="container-fluid text-start">
     <div class="row pb-5">
-      <div class="col-9">
-        <div class="arrow"></div>
+      <div class="col d-none d-sm-block">
+        <img class="img-responsive float-end" height="120px" src="./Arrow.png" alt="Arrow image">
       </div>
-      <div class="col-3">
+      <div class="col d-block d-sm-none w-100 text-center">
+        <div class="step">
+          Step 1: command to install
+        </div>
+        <p class="step-content" id="npm">
+          npm install react-bootstrap bootstrap
+        </p>
+      </div>
+      <!-- alternate -->
+      <div class="col d-none d-sm-block w-100 text-start">
         <div class="step">
           Step 1: command to install
         </div>
@@ -37,8 +43,9 @@
         </p>
       </div>
     </div>
+    <!--//step 2: command to install-->
     <div class="row">
-      <div class="col-4">
+      <div class="col w-100 text-center">
         <p class="step">
           Step 2: import react-bootstrap into your App.js file
         </p>
@@ -46,7 +53,12 @@
           import 'bootstrap/dist/css/bootstrap.min.css';
         </p>
       </div>
-      <div class="col-8"></div>
+      <div class="col d-none d-sm-block"></div>
+    </div>
+    <div class="footer">
+    <p class="step-ref">
+      <i> <a href="https://react-bootstrap.github.io/getting-started/introduction">React-bootstrap documentation --></a></i>
+    </p>
     </div>
   </div>
   
