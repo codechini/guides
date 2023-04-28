@@ -14,14 +14,10 @@
   <div class="heading text-center">
     <h1>How to set-up React-bootstrap in your React.js Project</h1>
   </div>
-  <div class="hero">
-    
-    
-  </div>
-  
 
   <div class="container-fluid text-start">
-    <div class="row pb-5">
+    <!-- row1 -->
+    <div class="row py-3">
       <div class="col d-none d-sm-block">
         <img class="img-responsive float-end" height="120px" src="./Arrow.png" alt="Arrow image">
       </div>
@@ -30,7 +26,9 @@
           Step 1: command to install
         </div>
         <p class="step-content" id="npm">
-          npm install react-bootstrap bootstrap
+          <code>
+            npm install react-bootstrap bootstrap
+          </code>
         </p>
       </div>
       <!-- alternate -->
@@ -44,13 +42,37 @@
       </div>
     </div>
     <!--//step 2: command to install-->
-    <div class="row">
+    <div class="row pb-5">
       <div class="col w-100 text-center">
         <p class="step">
           Step 2: import react-bootstrap into your App.js file
         </p>
         <p class="step-content">
           import 'bootstrap/dist/css/bootstrap.min.css';
+        </p>
+      </div>
+      <div class="col d-none d-sm-block"></div>
+    </div>
+    <div class="row pb-5">
+      <div class="col w-100 text-center">
+        <p class="step">
+          Step 3: Copy CDN dependencies script tags in your index.html file
+        </p>
+        <p class="step-content">
+          <code>
+              &lt;script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"
+                crossorigin&gt;&lt;/script&gt;
+          </code>
+          <br>
+          <code>
+            &lt;scriptsrc="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+            crossorigin&gt;&lt;/script&gt;
+          </code>
+          <br>
+          <code>
+          &lt;script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+          crossorigin &gt;&lt;/script&gt;
+          </code>
         </p>
       </div>
       <div class="col d-none d-sm-block"></div>
@@ -70,3 +92,10 @@
   </script>
 </body>
 </html>
+
+
+<!-- 
+  ></script>
+
+<script
+  ></script> -->
