@@ -42,8 +42,8 @@ input:focus {
   width: 100%;
   padding-left: 10px;
   border: 1px solid #ddd;
-  /* border-radius: 25px; */
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 25px;
+  /* border-radius: 10px 10px 0px 0px; */
 }
 li{
   border-top: 1px solid rgb(198, 198, 198);
