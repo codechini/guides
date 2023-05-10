@@ -47,9 +47,9 @@
 
     <div class="row pb-5">
       
-      <div class="col d-block d-sm-none w-100 text-center">
+      <div class="col d-block d-sm-none w-100 text-center"><!--not visible on large-->
         <p class="step">
-          Step 2: import react-bootstrap into your App.js file
+          Step 2: import react-bootstrap into your App.js file 1
         </p>
         <p class="step-content">
           import 'bootstrap/dist/css/bootstrap.min.css';
@@ -58,16 +58,16 @@
       
 
       <!-- alternate -->
-      <div class="col d-none d-sm-block">
+      <div class="col d-none d-sm-block"> <!--not visible on small-->
         <p class="step">
-          Step 2: import react-bootstrap into your App.js file
+          Step 2: import react-bootstrap into your App.js file 2
         </p>
         <p class="step-content">
           import 'bootstrap/dist/css/bootstrap.min.css';
         </p>
       </div>
       
-      <div class="col d-none d-sm-block">
+      <div class="col d-none d-sm-block"> <!--not visible on small-->
         <img class="arrowrev img-responsive float-start" height="120px" src="./Arrow.png" alt="Arrow image">
       </div>
     </div>
@@ -77,10 +77,32 @@
     <!-- row 3 -->
 
     <div class="row pb-5">
-      <div class="col w-100 text-center">
+      <div class="col d-none d-sm-block">
       </div>
       <div class="col d-none d-sm-block">
       <p class="step">
+          Step 3: Copy CDN dependencies script tags in your index.html file
+        </p>
+        <p class="step-content">
+          <code>
+              &lt;script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"
+                crossorigin&gt;&lt;/script&gt;
+          </code>
+          <br>
+          <code>
+            &lt;scriptsrc="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+            crossorigin&gt;&lt;/script&gt;
+          </code>
+          <br>
+          <code>
+          &lt;script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+          crossorigin &gt;&lt;/script&gt;
+          </code>
+        </p>
+      </div>
+      <!-- alternate -->
+      <div class="col d-block d-sm-none w-100 text-center">
+        <p class="step">
           Step 3: Copy CDN dependencies script tags in your index.html file
         </p>
         <p class="step-content">
