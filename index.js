@@ -5,7 +5,7 @@ function seachGuide() {
   filter = input.value.toUpperCase();
   ul = document.getElementById("myGuides");
   li = ul.getElementsByTagName("li");
-
+  // display the hidden "ul"
   document.getElementById("myGuides").style.display = "block";
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];

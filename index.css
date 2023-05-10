@@ -15,7 +15,7 @@ body{
 }
 @media only screen and (max-width: 426px){
   .section-1{
-    padding: 50% 1%;
+    padding: 85% 1%;
   }
 }
 a{
@@ -39,6 +39,7 @@ input:focus {
 }
 #myInput{
   font-size: 16px;
+  height: 45px;
   width: 100%;
   padding-left: 10px;
   border: 1px solid #ddd;
@@ -47,8 +48,11 @@ input:focus {
 }
 li{
   border-top: 1px solid rgb(198, 198, 198);
+  height: 45px;
   /* border-radius: 10px 10px 0px 0px; */
 }
+/* last child targets as the name suggests the last index of the element
+occurence of the element */
 li.last-child{
   border-top: 1px solid rgb(198, 198, 198);
   border-radius: 10px 10px 0px 0px;
