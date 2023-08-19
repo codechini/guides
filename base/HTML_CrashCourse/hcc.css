@@ -1,0 +1,30 @@
+:root{
+  --heading-font:32px;
+  --fw-sm: 200;
+  --def-font-family: 'Nunito Sans', sans-serif;
+  --bg-color:rgb(49, 56, 102);
+  --text-color:rgb(254, 123, 229);
+  --accent1:rgb(80, 64, 153);
+  --accent2:rgb(151, 78, 195);
+}
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+  font-size: var(--heading-font);
+  font-weight: var(--fw-sm);
+  margin: 1% 5%;
+}
+.section1{
+
+}
+.footer{
+
+}
