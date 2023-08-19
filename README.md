@@ -1,2 +1,2 @@
 This repository is for all the installation or well any sort of guide to how to do things maybe....
-You can check it out here <a href="https://guideopedia.netlify.app/"></a>
+You can check it out here <a href="https://guideopedia.netlify.app/">GUIDEOPEDIA</a>
